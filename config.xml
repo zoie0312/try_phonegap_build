@@ -17,6 +17,6 @@
       Zoie
     </author>
 
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.1" />
 
 </widget>
