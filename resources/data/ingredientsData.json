@@ -1,5 +1,5 @@
 {
-                //"id" : "ccd",
+    "user" : "ccd",
     "items" : [
         {
             "text" : "肉類",
@@ -8,32 +8,69 @@
                 {
                     "text" : "兩隻腳",
                     "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
+                    //"leaf":true,
+                    "items": [
+                        {
+                            "text" : "XXD",
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "雞腿",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "雞胸肉",
+                                    "checked": true,
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "text" : "四隻腳",
                     "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
+                    //"leaf": true,
+                    "items": [
+                        {
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "豬五花",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豬里脊",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豬排骨",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "羊肉",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "牛小排",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "牛絞肉",
+                                    "checked": false,
+                                    "value": true
+                                },
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -42,16 +79,22 @@
             "icon": "add2",
             "items" : [
                 {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
+                    "icon": "compose",
+                    "leaf": true,
+                    "contents": [
+                        {
+                            "ingredientName": "豬肝",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "牛肚",
+                            "checked": false,
+                            "value": true
+
+                        }
+                    ]
                 }
             ]
         },
@@ -60,953 +103,24 @@
             "icon": "add2",
             "items" : [
                 {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
+                    "icon": "compose",
+                    "leaf": true,
+                    "contents": [
+                        {
+                            "ingredientName": "番紅花",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "辣椒",
+                            "checked": false,
+                            "value": true
+
+                        }
+                    ]
                 }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料2",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料3",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料4",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料5",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料6",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料7",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料8",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料9",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料10",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料11",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料12",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料13",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "肉類",
-            "icon": "add",
-            "items": [
-                {
-                    "text" : "兩隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "雞腿",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "雞胸肉",
-                        "checked": true,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                },
-                {
-                    "text" : "四隻腳",
-                    "icon": "add",
-                    "items": [{
-                        "ingredientName": "牛肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }, {
-                        "ingredientName": "豬五花肉",
-                        "checked": false,
-                        "value": true,
-                        "leaf" : true
-                    }]
-                }
-            ]
-        },
-        {
-            "text" : "內臟類",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "豬肝",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "牛肚",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
-            ]
-        },
-        {
-            "text" : "香料14",
-            "icon": "add2",
-            "items" : [
-                {
-                    "ingredientName": "番紅花",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                },
-                {
-                    "ingredientName": "辣椒",
-                    "checked": false,
-                    "value": true,
-                    "leaf" : true
-                }
+
             ]
         }
     ]
