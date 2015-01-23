@@ -24,6 +24,16 @@
                                     "ingredientName": "雞胸肉",
                                     "checked": true,
                                     "value": true
+                                },
+                                {
+                                    "ingredientName": "雞里肌",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "鴨肉",
+                                    "checked": true,
+                                    "value": true
                                 }
                             ]
                         }
@@ -68,6 +78,277 @@
                                     "checked": false,
                                     "value": true
                                 },
+                                {
+                                    "ingredientName": "豬肉絲",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "牛腱",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "梅花肉",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豬肋排",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豬絞肉",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "五花肉",
+                                    "checked": false,
+                                    "value": true
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text" : "蔬果",
+            "icon": "add",
+            "items": [
+                {
+                    "text" : "葉菜",
+                    "icon": "add",
+                    //"leaf":true,
+                    "items": [
+                        {
+                            "text" : "XXD",
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "紫高麗菜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "高麗菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "空心菜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "地瓜葉",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豆苗",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "皇宮菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "菠菜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "大白菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "花椰菜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "芹菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "芥蘭",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "芥菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "韭菜花",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "韭菜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "豆芽菜",
+                                    "checked": false,
+                                    "value": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text" : "根莖",
+                    "icon": "add",
+                    //"leaf": true,
+                    "items": [
+                        {
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "番薯",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "地瓜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "芋頭",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "馬鈴薯",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "紅蘿蔔",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "胡蘿蔔",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "菜頭",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "白蘿蔔",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "西洋芹",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "竹筍",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "洋蔥",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "筊白筍",
+                                    "checked": false,
+                                    "value": true
+                                },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text" : "瓜果",
+                    "icon": "add",
+                    //"leaf": true,
+                    "items": [
+                        {
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "番茄",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "小番茄",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "小黃瓜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "南瓜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "胡瓜",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "苦瓜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "茄子",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "青椒",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "甜椒",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "絲瓜",
+                                    "checked": false,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "玉米筍",
+                                    "checked": true,
+                                    "value": true
+                                },
+                                {
+                                    "ingredientName": "玉米",
+                                    "checked": false,
+                                    "value": true
+                                },
                             ]
                         }
                     ]
@@ -79,26 +360,32 @@
             "icon": "add2",
             "items" : [
                 {
-                    "text" : "內臟",
-                    "icon": "add2",
-                    "items": [
+                    "icon": "compose",
+                    "leaf": true,
+                    "contents": [
                         {
-                            "icon": "compose",
-                            "leaf": true,
-                            "contents": [
-                                {
-                                    "ingredientName": "豬肝",
-                                    "checked": false,
-                                    "value": true
+                            "ingredientName": "豬肝",
+                            "checked": false,
+                            "value": true
 
-                                },
-                                {
-                                    "ingredientName": "牛肚",
-                                    "checked": false,
-                                    "value": true
+                        },
+                        {
+                            "ingredientName": "牛肚",
+                            "checked": false,
+                            "value": true
 
-                                }
-                            ]
+                        },
+                        {
+                            "ingredientName": "豬大腸",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "豬肚",
+                            "checked": false,
+                            "value": true
+
                         }
                     ]
                 }
@@ -106,30 +393,408 @@
             ]
         },
         {
-            "text" : "香料1",
+            "text" : "香料",
             "icon": "add2",
             "items" : [
                 {
-                    "text" : "香料",
-                    "icon": "add2",
-                    "items" : [
+                    "icon": "compose",
+                    "leaf": true,
+                    "contents": [
                         {
-                            "icon": "compose",
-                            "leaf": true,
-                            "contents": [
-                                {
-                                    "ingredientName": "番紅花",
-                                    "checked": false,
-                                    "value": true
+                            "ingredientName": "番紅花",
+                            "checked": false,
+                            "value": true
 
-                                },
-                                {
-                                    "ingredientName": "辣椒",
-                                    "checked": false,
-                                    "value": true
+                        },
+                        {
+                            "ingredientName": "辣椒",
+                            "checked": false,
+                            "value": true
 
-                                }
-                            ]
+                        },
+                        {
+                            "ingredientName": "花椒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "白胡椒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "肉桂",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "茲然",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "咖哩",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "百里香",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "巴西里",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "紅椒粉",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "蘿勒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "員雖",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "九層塔",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "食羅",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "月桂葉",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "檸檬葉",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "香草",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "奧勒岡",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "海鹽",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "五香粉",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "八角",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "迷迭香",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "香茅",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "香菜",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "蒜頭",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "蔥",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "紅蔥頭",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "巴西利",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "薑",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "南薑",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "薑黃",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "辣椒粉",
+                            "checked": false,
+                            "value": true
+
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text" : "醬料",
+            "icon": "add2",
+            "items" : [
+                {
+                    "icon": "compose",
+                    "leaf": true,
+                    "contents": [
+                        {
+                            "ingredientName": "義大利麵醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "番茄醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "豆瓣醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "沙茶醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "沙拉醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "甜辣醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "韓式辣椒醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "辣椒醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "鰹魚露",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "魚露",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "醬油",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "醬油膏",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "蠔油",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "辣椒油",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "牛排醬",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "米酒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "清酒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "啤酒",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "味醂",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "味精",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "黃芥末",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "美乃滋",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "芝麻醬",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "砂糖",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "冰糖",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "黑糖",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "雞粉",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "鹽巴",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "柴魚粉",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "白醋",
+                            "checked": false,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "烏醋",
+                            "checked": true,
+                            "value": true
+
+                        },
+                        {
+                            "ingredientName": "紅酒醋",
+                            "checked": false,
+                            "value": true
+
                         }
                     ]
                 }
