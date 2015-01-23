@@ -79,23 +79,30 @@
             "icon": "add2",
             "items" : [
                 {
-                    "icon": "compose",
-                    "leaf": true,
-                    "contents": [
+                    "text" : "內臟",
+                    "icon": "add2",
+                    "items": [
                         {
-                            "ingredientName": "豬肝",
-                            "checked": false,
-                            "value": true
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "豬肝",
+                                    "checked": false,
+                                    "value": true
 
-                        },
-                        {
-                            "ingredientName": "牛肚",
-                            "checked": false,
-                            "value": true
+                                },
+                                {
+                                    "ingredientName": "牛肚",
+                                    "checked": false,
+                                    "value": true
 
+                                }
+                            ]
                         }
                     ]
                 }
+
             ]
         },
         {
@@ -103,24 +110,29 @@
             "icon": "add2",
             "items" : [
                 {
-                    "icon": "compose",
-                    "leaf": true,
-                    "contents": [
+                    "text" : "香料",
+                    "icon": "add2",
+                    "items" : [
                         {
-                            "ingredientName": "番紅花",
-                            "checked": false,
-                            "value": true
+                            "icon": "compose",
+                            "leaf": true,
+                            "contents": [
+                                {
+                                    "ingredientName": "番紅花",
+                                    "checked": false,
+                                    "value": true
 
-                        },
-                        {
-                            "ingredientName": "辣椒",
-                            "checked": false,
-                            "value": true
+                                },
+                                {
+                                    "ingredientName": "辣椒",
+                                    "checked": false,
+                                    "value": true
 
+                                }
+                            ]
                         }
                     ]
                 }
-
             ]
         }
     ]
